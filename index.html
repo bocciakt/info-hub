@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Here at the Kevin Tarik Boccia Info Hub, you can learn about my passions, qualifications, and projects. I am on a journey of software development, creating ideas for the future." />
+  <link rel="icon" href="img/code-simple.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+  <script defer src="js/script.js"></script>
+
+  <title>Kevin Tarik Boccia</title>
+</head>
+
+<body>
+  <header class="header">
+    <a class="nav-scroll" href="#">
+      <img class="logo" alt="Icon of an open HTML tag." src="img/code-simple.png" />
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li>
+          <a class="main-nav-link nav-scroll" href="#about-me">About Me</a>
+        </li>
+        <li><a class="main-nav-link nav-scroll" href="#cv">CV</a></li>
+        <li>
+          <a class="main-nav-link nav-scroll" href="#projects">Projects</a>
+        </li>
+        <li><a class="main-nav-link nav-scroll" href="#contact">Contact</a></li>
+        <li><a class="main-nav-link nav-resume" href="resume_bocciakt.pdf" target="_blank"
+            alt="Button linking to Kevin Boccia's resume.">Resume</a></li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Stay awhile and listen...
+          </h1>
+          <p class="hero-description">
+            I recently left my career as an Admissions Officer for higher education students to pursue my dream of being
+            a software developer. I have embarked on my coding journey; growing into the well-rounded full stack
+            developer I know I can be!
+          </p>
+          <a href="#about-me" class="btn btn--outline nav-scroll margin-right-sm">Come on in &rarr;</a>
+        </div>
+        <div class="hero-img-box">
+          <img src="img/astronaut.webp" class="hero-img" alt="An astronaut floating in space above Earth." />
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="section-about-me" id="about-me">
+      <div class="container">
+        <span class="subheading">About me</span>
+        <h2 class="heading-secondary">
+          Three passions of mine are...
+        </h2>
+      </div>
+      <div class="container grid grid--2--cols grid--center--vertically">
+
+        <!-- Passion 01 -->
+        <div class="passion-text-box">
+          <p class="passion-number">01</p>
+          <h3 class="heading-tertiary">Coding</h3>
+          <p class="passion-description">
+            After landing my first job in the industry I knew I made the right choice switching fields, and I never want
+            to look back. Coding is endlessly interesting as there is always more to learn, and more depth of
+            understanding even on what you do know.
+          </p>
+        </div>
+        <div class="passion-img-box">
+          <img src="img/code.webp" class="passion-img" alt="A laptop showing code on the screen. " />
+        </div>
+
+        <!-- Passion 02 -->
+        <div class="passion-img-box">
+          <img src="img/hardware.webp" class="passion-img" alt="A close-up shot of a circuit board." />
+        </div>
+        <div class="passion-text-box">
+          <p class="passion-number">02</p>
+          <h3 class="heading-tertiary">Math & Physics</h3>
+          <p class="passion-description">
+            Being favourite subjects in my school days; wondering about all the posibilities, and the problem-solving
+            aspect of these courses, made them the most satisfying. I believe coding and competitive gaming captivate my
+            attention for similar reasons.
+          </p>
+        </div>
+
+        <!-- Passion 03 -->
+        <div class="passion-text-box">
+          <p class="passion-number">03</p>
+          <h3 class="heading-tertiary">eSports</h3>
+          <p class="passion-description">
+            Whether it is a fighting game, tactical fps, or competitive modes in an MMO, there is something endlessly
+            satisfying when there is enough depth in gameplay mechanics to perform them over and over, yet infinitely
+            refining the craft.
+          </p>
+        </div>
+        <div class="passion-img-box">
+          <img src="img/old-school.webp" class="passion-img"
+            alt="A collection of retro gaming devices, arcade sticks, and keyboards." />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cv" id="cv">
+      <div class="container">
+        <span class="subheading">CV</span>
+        <h2 class="heading-secondary">
+          Skills, Qualifications, and Certificates
+        </h2>
+      </div>
+      <div class="container grid grid--4--cols">
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="language-outline"></ion-icon>
+          <p class="cv-title">Languages</p>
+          <p class="cv-text">
+            Python, HTML, CSS, JavaScript, MongoDB.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="git-branch-outline"></ion-icon>
+          <p class="cv-title">Technical Skills</p>
+          <p class="cv-text">
+            Flask, Celery, Git, Docker, Nginx, Django, Ubuntu.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="construct-outline"></ion-icon>
+          <p class="cv-title">Strengths</p>
+          <p class="cv-text">
+            Problem Solving, Communication, Dedication, Compassion.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="bulb-outline"></ion-icon>
+          <p class="cv-title">Interests</p>
+          <p class="cv-text">
+            Math, Physics, Philosophy, Astronomy, Music, eSports.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="briefcase-outline"></ion-icon>
+          <p class="cv-title">Devopie Inc.</p>
+          <p class="cv-text">
+            Junior Full Stack Developer, 2023.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="ribbon-outline"></ion-icon>
+          <p class="cv-title">Certificates</p>
+          <p class="cv-text">
+            Python, MongoDB, HTML & CSS, Docker, and Django-Celery Asynchronous Task Processing.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="school-outline"></ion-icon>
+          <p class="cv-title">McMaster University</p>
+          <p class="cv-text">
+            Honours Bachelor of Science in Psychology, Neuroscience, and Behaviour.
+          </p>
+        </div>
+        <div class="cv-item">
+          <ion-icon class="cv-icon" name="airplane-outline"></ion-icon>
+          <p class="cv-title">Traveled To</p>
+          <p class="cv-text">
+            Japan, California, Mexico, British Columbia, Quebec.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects" id="projects">
+      <div class="container">
+        <span class="subheading">Projects</span>
+        <h2 class="heading-secondary">
+          Web Development & Backend Software
+        </h2>
+      </div>
+
+      <div class="container grid grid--3--cols margin-bottom-md">
+        <div class="project">
+          <div class="project-content">
+            <p class="project-title">Kevin Tarik Boccia Info Hub</p>
+            <div class="project-tags">
+              <span class="tag tag--html">HTML</span>
+              <span class="tag tag--css">CSS</span>
+              <span class="tag tag--js">JavaScript</span>
+            </div>
+            <div class="project-text-box">
+              <p>The site you are currently exploring! If you would like to review the source code, please <a
+                  class="link" href="#">click here!</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-content">
+            <p class="project-title">Work In Progress: Freelance Website</p>
+            <div class="project-tags">
+              <span class="tag tag--html">HTML</span>
+              <span class="tag tag--css">CSS</span>
+              <span class="tag tag--js">JavaScript</span>
+            </div>
+            <div class="project-text-box">
+              <p>Working on developing a website for a local cleaning company. More details and link coming soon.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-content">
+            <p class="project-title">Work In Progress: CronJob CLI Tool</p>
+            <div class="project-tags">
+              <span class="tag tag--golang">Golang</span>
+              <span class="tag tag--bubble">Bubble Tea</span>
+            </div>
+            <div class="project-text-box">
+              <p>Developing an interactive CLI tool for an easy and intuitive way to schedule and edit CronJobs on the
+                command line.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-container">
+      <a class="nav-scroll" href="#" class="footer-logo">
+        <img class="logo" alt="Icon of a closing HTML tag." src="img/code-closed.png" />
+      </a>
+      <p class="footer-heading">Contact info</p>
+      <address class="contact-info">
+        <a class="footer-link" href="tel:905-741-0684">905-741-0684</a><br />
+        <a class="footer-link" href="mailto:kevin.boccia@outlook.com">kevin.boccia@outlook.com</a>
+        </p>
+      </address>
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/bocciakt" target="_blank"
+            alt="GitHub icon and link to Kevin Boccia's GitHub profile." class="footer-link"><ion-icon
+              class="social-icon" name="logo-github"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/kevin-boccia" target="_blank"
+            alt="LinkedIn icon and link to Kevin Boccia's LinkedIn profile." class="footer-link"><ion-icon
+              class="social-icon" name="logo-linkedin"></ion-icon></a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Kevin Tarik Boccia Info Hub &copy <span class="year"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
