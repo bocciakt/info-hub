@@ -323,6 +323,21 @@
   margin-bottom: 1.6rem;
 }
 
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 .social-links {
   display: flex;
   gap: 2.4rem;
@@ -340,21 +355,6 @@
   line-height: 1.6;
   color: #adb5bd;
   margin-top: 2.4rem;
-}
-
-.footer-heading {
-  font-size: 1.8rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-style: normal;
-  font-size: 1.6rem;
-  line-height: 1.6;
 }
 
 .footer-link:link,
